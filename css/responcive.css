@@ -1,0 +1,386 @@
+@media ( max-width:1400px){
+    .fixed-width{
+     
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .content-left-map {
+        width: 52%;
+    }
+    .mobile-menu-check {
+       
+        opacity: 0;
+    }
+    .header-logo {
+      
+        margin-top: 20px;
+    }
+    .header-button {
+     
+        margin-top: 23px;
+    }
+}
+
+@media (max-width:1200px){
+    .p-content ul span {
+       
+        width: 48px;
+       
+    }
+    .p-content ul li {
+        margin: 14px 0;
+        
+        font-size: 21px;
+    }
+    .p-heading p {
+        font-size: 15px;
+        
+    }
+    .p-heading h5 {
+        font-size: 19px;
+        margin-bottom: 9px;
+       
+    }
+    .blog-post-item {
+        width: 47%;
+       
+    }
+    .blog-post-item {
+        width: 47%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .blog-post-item img {
+       
+        width: 100%;
+        margin-right: 20px;
+    }
+    .content-right-from {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .content-left-map {
+        width: 100%;
+    }
+   
+
+}
+@media (max-width:1050px){
+    .logo span {
+       
+        font-size: 22px;
+       
+    }
+    .header-menu ul li a {
+        padding: 0 2px;
+        font-size:15px;
+    }
+    .logo span {
+        font-size: 20px;
+        margin-top: 19px;
+    }
+    .video-content-right h3 {
+        font-size: 25px;      
+        margin-bottom: 30px;
+    }
+    .banner{
+        margin-top: 0;
+        
+
+    }
+    .header{
+        position: relative;
+    }
+    .blog-post-item {
+        width: 47%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .blog-post-item img {
+       
+        width: 100%;
+        margin-right: 20px;
+    }
+   
+   
+ 
+}
+.header-menu span{
+    display: none;
+}
+
+
+@media (max-width:992px){
+    .header-logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+       
+    }
+    .header-logo img{     
+        float: inherit;     
+    }
+    .logo span{
+        position: relative;
+        top: -22px;
+    }
+  
+    .header-menu {
+        width: 100%;
+    }
+
+    .header-menu span{
+        font-size: 40px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+    }
+    .header-button{
+        width: 200px;
+        text-align: right;
+        position: absolute;
+        right: 14px;
+        top: 72px;
+
+    }
+    .member {
+        width: 48%;
+        
+        margin-bottom: 25px;
+       
+    }
+   
+    .banner h4 {
+        font-size: 18px;
+        
+    }
+    .defole-btn {
+        
+        font-size: 12px;
+    }
+    .banner h2 {
+        font-size: 34px;
+    }
+    .video-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .video-content-right {
+        width: 100%;
+        
+    }
+    .service-title h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .service-box {
+        width: 48%;
+        
+    }
+    .service-box:nth-child(3n+3){
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .pricing-tables-item {
+        width: 100%;
+        margin-right: 0;
+       
+    }
+   
+    .blog-post-item {
+        width: 47%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .blog-post-item img {
+       
+        width: 100%;
+        margin-right: 30px;
+        margin-bottom: 22px;
+    }
+    .i-item {
+        width: 100%;
+        
+    }
+    .header-menu ul li {
+       
+        padding: 0 10px;
+     
+    }
+    .header-btn {
+        margin-top: 16px;
+    }
+  
+
+    /* responcive css icon */
+    .header-menu ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu .mobile-menu-check:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height:100%;
+    }
+    .mobile-menu-check{
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .header-menu span{
+        position: absolute;
+        top: 111px;
+        left: 27px;
+        pointer-events: none;
+        cursor: pointer;
+    }
+  
+    .header-menu ul li {
+      
+        display: block;
+    }
+    .header-menu ul li ul {
+        top: -87%;
+        left: 100px;
+    }
+    .header-menu ul li ul li {
+ 
+        background: #ddd;
+        line-height: 37px;
+    }
+   
+}
+
+
+@media (max-width:768px){
+    .banner h2 {
+        font-size: 31px;
+    }
+    .banner{
+        margin-top: 0;
+        padding: 95px 0;
+
+    }
+    .header{
+        position: relative;
+    }
+    .defole-btn {
+        padding: 9px 1px;
+    }
+    .service-title h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: 500;
+
+    }
+    .service-title p {
+       
+        font-size: 25px;
+      
+    }
+    .service-box {
+        width: 100%;
+        
+    }
+    .service-box:nth-child(3n+3){
+        margin-right: 20px;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right: 20px;
+    }
+    .service-box:nth-child(1n+1){
+        margin-right: 20px;
+    }
+    .sectino-title h2 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .team-section .sectino-title h2 {
+        font-size: 23px;
+    }
+    .default-input {
+      
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-hading h2 {
+        font-size: 36px;
+     
+    }
+
+    
+    .blog-post-item {
+        width: 46%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .blog-post-item img {
+       
+        width: 100%;
+        margin-right: 20px;
+    } 
+
+}
+@media (max-width:715px) {
+   
+    .banner h4 {
+        font-size: 17px;
+    }
+    .banner h2 {
+        font-size: 24px;
+    }
+    
+    .defole-btn {
+        font-size: 12px;
+    }
+    .section-title.newslater-section h2 {
+        margin-top: 31px;
+        font-size: 36px;
+    }
+    .bt-containt {
+        width: 100%;
+    }
+    .b-hading {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .blog-post-item {
+        width: 100%;
+        
+        margin-bottom: 10px;
+    }
+    .blog-post-item img {
+       
+        width: 100%;
+        margin-right: 20px;
+    }
+
+}
+@media (max-width:420px){
+    .banner h2 {
+        font-size: 31px;
+        margin: 20px 0;
+    }
+    .banner h4 {
+        font-size:21px;
+    }
+    .defole-btn {
+        font-size: 15px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .member {
+        width: 100%;
+        
+    }
+    .b-hading h2 {
+        font-size: 29px;
+    }
+  
+}
